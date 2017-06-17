@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Silly_Song" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silly Song" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85m-dA-H79">
+                                <rect key="frame" x="67" y="60" width="240" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="2il-st-moH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QGF-R3-7Qm">
+                                <rect key="frame" x="16" y="178" width="343" height="50"/>
+                            </stackView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o3f-RM-MlM">
+                                <rect key="frame" x="16" y="168" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="displayLyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ssf-me-9Tg"/>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="2Ws-pi-SKx"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3vd-VQ-Kld">
+                                <rect key="frame" x="16" y="233" width="343" height="368"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3vd-VQ-Kld" firstAttribute="top" secondItem="QGF-R3-7Qm" secondAttribute="bottom" constant="5" id="2N4-Aw-FQP"/>
+                            <constraint firstItem="85m-dA-H79" firstAttribute="centerX" secondItem="o3f-RM-MlM" secondAttribute="centerX" id="2TL-oo-LpF"/>
+                            <constraint firstItem="85m-dA-H79" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="2Wf-71-dYS"/>
+                            <constraint firstItem="3vd-VQ-Kld" firstAttribute="top" secondItem="o3f-RM-MlM" secondAttribute="bottom" constant="35" id="8RV-UQ-3FD"/>
+                            <constraint firstItem="o3f-RM-MlM" firstAttribute="leading" secondItem="QGF-R3-7Qm" secondAttribute="leading" id="E5V-5U-LTl"/>
+                            <constraint firstItem="QGF-R3-7Qm" firstAttribute="trailing" secondItem="3vd-VQ-Kld" secondAttribute="trailing" id="FMI-cM-Xvn"/>
+                            <constraint firstItem="o3f-RM-MlM" firstAttribute="trailing" secondItem="QGF-R3-7Qm" secondAttribute="trailing" id="OZu-eu-tbw"/>
+                            <constraint firstItem="o3f-RM-MlM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WfL-Gm-11C"/>
+                            <constraint firstItem="85m-dA-H79" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="hrf-N6-5Xj"/>
+                            <constraint firstItem="o3f-RM-MlM" firstAttribute="top" secondItem="85m-dA-H79" secondAttribute="bottom" constant="45" id="iu7-rP-4pM"/>
+                            <constraint firstItem="QGF-R3-7Qm" firstAttribute="leading" secondItem="3vd-VQ-Kld" secondAttribute="leading" id="nPF-S9-qLU"/>
+                            <constraint firstItem="o3f-RM-MlM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pI7-rX-Ihh"/>
+                            <constraint firstItem="QGF-R3-7Qm" firstAttribute="top" secondItem="85m-dA-H79" secondAttribute="bottom" constant="55" id="qJq-9l-zek"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3vd-VQ-Kld" secondAttribute="bottom" constant="66" id="zTx-e6-8Ji"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lyricsView" destination="3vd-VQ-Kld" id="A3b-KK-XFu"/>
+                        <outlet property="nameField" destination="o3f-RM-MlM" id="DQT-Ly-VQw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
