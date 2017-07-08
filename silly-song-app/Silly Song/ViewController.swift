@@ -67,6 +67,10 @@ func shortNameFromName(name: String) -> String {
         }
     }
     
+    if String(resultingCharacters) == "" {
+        return lowercaseName
+    }
+    
     return String(resultingCharacters)
 }
 
