@@ -6,7 +6,7 @@ This repository contains an project for Udacity's iOS Nano Degree.
 
 ## Progress
 
-## 7/9/17
+### 7/9/17
 - Completed Unit 2 and PitchPerfect.
 
 ### 6/17/17
