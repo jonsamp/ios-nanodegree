@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCCBBABE1F113963007C9700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBBABD1F113963007C9700 /* AppDelegate.swift */; };
-		FCCBBAC01F113963007C9700 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBBABF1F113963007C9700 /* RecordSoundsViewController.swift */; };
-		FCCBBAC31F113963007C9700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCBBAC11F113963007C9700 /* Main.storyboard */; };
-		FCCBBAC51F113963007C9700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCBBAC41F113963007C9700 /* Assets.xcassets */; };
-		FCCBBAC81F113963007C9700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCBBAC61F113963007C9700 /* LaunchScreen.storyboard */; };
-		FCCBBAD21F11C6DA007C9700 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBBAD11F11C6DA007C9700 /* PlaySoundsViewController.swift */; };
-		FCCBBAD41F11E682007C9700 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCBBAD31F11E682007C9700 /* PlaySoundsViewController+Audio.swift */; };
+		FCD307CB1F125C3C00474F28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD307CA1F125C3C00474F28 /* AppDelegate.swift */; };
+		FCD307CD1F125C3C00474F28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD307CC1F125C3C00474F28 /* ViewController.swift */; };
+		FCD307D01F125C3C00474F28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD307CE1F125C3C00474F28 /* Main.storyboard */; };
+		FCD307D21F125C3C00474F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD307D11F125C3C00474F28 /* Assets.xcassets */; };
+		FCD307D51F125C3C00474F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD307D31F125C3C00474F28 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FCCBBABA1F113963007C9700 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCBBABD1F113963007C9700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCCBBABF1F113963007C9700 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
-		FCCBBAC21F113963007C9700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCCBBAC41F113963007C9700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCCBBAC71F113963007C9700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCCBBAC91F113963007C9700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCCBBAD11F11C6DA007C9700 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		FCCBBAD31F11E682007C9700 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		FCD307C71F125C3C00474F28 /* ClickCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD307CA1F125C3C00474F28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD307CC1F125C3C00474F28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD307CF1F125C3C00474F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD307D11F125C3C00474F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD307D41F125C3C00474F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD307D61F125C3C00474F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCCBBAB71F113963007C9700 /* Frameworks */ = {
+		FCD307C41F125C3C00474F28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCCBBAB11F113963007C9700 = {
+		FCD307BE1F125C3C00474F28 = {
 			isa = PBXGroup;
 			children = (
-				FCCBBABC1F113963007C9700 /* PitchPerfect */,
-				FCCBBABB1F113963007C9700 /* Products */,
+				FCD307C91F125C3C00474F28 /* ClickCounter */,
+				FCD307C81F125C3C00474F28 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCCBBABB1F113963007C9700 /* Products */ = {
+		FCD307C81F125C3C00474F28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCCBBABA1F113963007C9700 /* PitchPerfect.app */,
+				FCD307C71F125C3C00474F28 /* ClickCounter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCCBBABC1F113963007C9700 /* PitchPerfect */ = {
+		FCD307C91F125C3C00474F28 /* ClickCounter */ = {
 			isa = PBXGroup;
 			children = (
-				FCCBBABD1F113963007C9700 /* AppDelegate.swift */,
-				FCCBBABF1F113963007C9700 /* RecordSoundsViewController.swift */,
-				FCCBBAC11F113963007C9700 /* Main.storyboard */,
-				FCCBBAC41F113963007C9700 /* Assets.xcassets */,
-				FCCBBAC61F113963007C9700 /* LaunchScreen.storyboard */,
-				FCCBBAC91F113963007C9700 /* Info.plist */,
-				FCCBBAD11F11C6DA007C9700 /* PlaySoundsViewController.swift */,
-				FCCBBAD31F11E682007C9700 /* PlaySoundsViewController+Audio.swift */,
+				FCD307CA1F125C3C00474F28 /* AppDelegate.swift */,
+				FCD307CC1F125C3C00474F28 /* ViewController.swift */,
+				FCD307CE1F125C3C00474F28 /* Main.storyboard */,
+				FCD307D11F125C3C00474F28 /* Assets.xcassets */,
+				FCD307D31F125C3C00474F28 /* LaunchScreen.storyboard */,
+				FCD307D61F125C3C00474F28 /* Info.plist */,
 			);
-			path = PitchPerfect;
+			path = ClickCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCCBBAB91F113963007C9700 /* PitchPerfect */ = {
+		FCD307C61F125C3C00474F28 /* ClickCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCCBBACC1F113963007C9700 /* Build configuration list for PBXNativeTarget "PitchPerfect" */;
+			buildConfigurationList = FCD307D91F125C3C00474F28 /* Build configuration list for PBXNativeTarget "ClickCounter" */;
 			buildPhases = (
-				FCCBBAB61F113963007C9700 /* Sources */,
-				FCCBBAB71F113963007C9700 /* Frameworks */,
-				FCCBBAB81F113963007C9700 /* Resources */,
+				FCD307C31F125C3C00474F28 /* Sources */,
+				FCD307C41F125C3C00474F28 /* Frameworks */,
+				FCD307C51F125C3C00474F28 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PitchPerfect;
-			productName = PitchPerfect;
-			productReference = FCCBBABA1F113963007C9700 /* PitchPerfect.app */;
+			name = ClickCounter;
+			productName = ClickCounter;
+			productReference = FCD307C71F125C3C00474F28 /* ClickCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCCBBAB21F113963007C9700 /* Project object */ = {
+		FCD307BF1F125C3C00474F28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = jon;
 				TargetAttributes = {
-					FCCBBAB91F113963007C9700 = {
+					FCD307C61F125C3C00474F28 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = FCCBBAB51F113963007C9700 /* Build configuration list for PBXProject "PitchPerfect" */;
+			buildConfigurationList = FCD307C21F125C3C00474F28 /* Build configuration list for PBXProject "ClickCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = FCCBBAB11F113963007C9700;
-			productRefGroup = FCCBBABB1F113963007C9700 /* Products */;
+			mainGroup = FCD307BE1F125C3C00474F28;
+			productRefGroup = FCD307C81F125C3C00474F28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCCBBAB91F113963007C9700 /* PitchPerfect */,
+				FCD307C61F125C3C00474F28 /* ClickCounter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FCCBBAB81F113963007C9700 /* Resources */ = {
+		FCD307C51F125C3C00474F28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCBBAC81F113963007C9700 /* LaunchScreen.storyboard in Resources */,
-				FCCBBAC51F113963007C9700 /* Assets.xcassets in Resources */,
-				FCCBBAC31F113963007C9700 /* Main.storyboard in Resources */,
+				FCD307D51F125C3C00474F28 /* LaunchScreen.storyboard in Resources */,
+				FCD307D21F125C3C00474F28 /* Assets.xcassets in Resources */,
+				FCD307D01F125C3C00474F28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCCBBAB61F113963007C9700 /* Sources */ = {
+		FCD307C31F125C3C00474F28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCBBAC01F113963007C9700 /* RecordSoundsViewController.swift in Sources */,
-				FCCBBAD41F11E682007C9700 /* PlaySoundsViewController+Audio.swift in Sources */,
-				FCCBBAD21F11C6DA007C9700 /* PlaySoundsViewController.swift in Sources */,
-				FCCBBABE1F113963007C9700 /* AppDelegate.swift in Sources */,
+				FCD307CD1F125C3C00474F28 /* ViewController.swift in Sources */,
+				FCD307CB1F125C3C00474F28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCCBBAC11F113963007C9700 /* Main.storyboard */ = {
+		FCD307CE1F125C3C00474F28 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCBBAC21F113963007C9700 /* Base */,
+				FCD307CF1F125C3C00474F28 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FCCBBAC61F113963007C9700 /* LaunchScreen.storyboard */ = {
+		FCD307D31F125C3C00474F28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCBBAC71F113963007C9700 /* Base */,
+				FCD307D41F125C3C00474F28 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FCCBBACA1F113963007C9700 /* Debug */ = {
+		FCD307D71F125C3C00474F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		FCCBBACB1F113963007C9700 /* Release */ = {
+		FCD307D81F125C3C00474F28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,25 +258,25 @@
 			};
 			name = Release;
 		};
-		FCCBBACD1F113963007C9700 /* Debug */ = {
+		FCD307DA1F125C3C00474F28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				INFOPLIST_FILE = ClickCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jon.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jon.ClickCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		FCCBBACE1F113963007C9700 /* Release */ = {
+		FCD307DB1F125C3C00474F28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				INFOPLIST_FILE = ClickCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jon.PitchPerfect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jon.ClickCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -293,24 +285,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCCBBAB51F113963007C9700 /* Build configuration list for PBXProject "PitchPerfect" */ = {
+		FCD307C21F125C3C00474F28 /* Build configuration list for PBXProject "ClickCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCCBBACA1F113963007C9700 /* Debug */,
-				FCCBBACB1F113963007C9700 /* Release */,
+				FCD307D71F125C3C00474F28 /* Debug */,
+				FCD307D81F125C3C00474F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCCBBACC1F113963007C9700 /* Build configuration list for PBXNativeTarget "PitchPerfect" */ = {
+		FCD307D91F125C3C00474F28 /* Build configuration list for PBXNativeTarget "ClickCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCCBBACD1F113963007C9700 /* Debug */,
-				FCCBBACE1F113963007C9700 /* Release */,
+				FCD307DA1F125C3C00474F28 /* Debug */,
+				FCD307DB1F125C3C00474F28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCCBBAB21F113963007C9700 /* Project object */;
+	rootObject = FCD307BF1F125C3C00474F28 /* Project object */;
 }
