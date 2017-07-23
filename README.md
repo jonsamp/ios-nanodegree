@@ -6,6 +6,10 @@ This repository contains an project for Udacity's iOS Nano Degree.
 
 ## Progress
 
+### 7/22/17
+- Completed MemeMe 1.0. MemeMe lets the user add bold text over an image, then share or save it.
+- Completed RockPaperScissors app challenge.
+
 ### 7/9/17
 - Completed Unit 2 and PitchPerfect.
 

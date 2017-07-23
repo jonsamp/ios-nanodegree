@@ -51,10 +51,28 @@ class PlaySoundsViewController: UIViewController {
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         stopAudio()
     }
+    
+    func scaleImage(_ image: AnyObject) {
+        image.imageView??.contentMode = UIViewContentMode.scaleAspectFit
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
+        
+        let buttons = [
+            snailButton,
+            chipmunkButton,
+            rabbitButton,
+            vaderButton,
+            echoButton,
+            reverbButton,
+            stopButton
+        ]
+        
+        for button in buttons {
+            scaleImage(button!)
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
